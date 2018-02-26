@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_blue">
+
+    <ImageView
+        android:id="@+id/recog_image"
+        android:layout_width="match_parent"
+        android:layout_height="552dp"/>
+
+    <Button
+        android:id="@+id/btn_upload"
+        style="@*android:style/Widget.Button.Transparent"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:text="上传" />
+
+</LinearLayout>
